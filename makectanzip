@@ -1,0 +1,10 @@
+#! /bin/sh
+chmod -x beamertools.dtx
+pdflatex -shell-escape beamertools.dtx
+pdflatex -shell-escape beamertools.dtx
+pdflatex -shell-escape beamertools.dtx
+mkdir beamertools.dtx
+mv beamertools.pdf README beamertools.dtx beamertools.ins beamertools
+zip -r beamertools beamertools
+rm -r beamertools
+rm *.idx *.out *.toc *.ilg *.ind *.hd *.aux *.log *.sty 
