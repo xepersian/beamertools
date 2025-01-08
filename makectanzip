@@ -3,7 +3,7 @@ chmod -x beamertools.dtx
 pdflatex -shell-escape beamertools.dtx
 pdflatex -shell-escape beamertools.dtx
 pdflatex -shell-escape beamertools.dtx
-mkdir beamertools.dtx
+mkdir beamertools
 mv beamertools.pdf README beamertools.dtx beamertools.ins beamertools
 zip -r beamertools beamertools
 rm -r beamertools
